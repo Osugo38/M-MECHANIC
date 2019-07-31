@@ -1,0 +1,41 @@
+#services h2{
+    text-align: center;
+}
+#services p{
+    text-align: center;
+}
+#form1{
+    border:1px solid darkgrey;
+    border-radius:7px;
+    margin-left:15%;
+    margin-right:15%;
+    text-align: center; 
+    padding:2%;
+    
+}
+#form1:hover{
+    box-shadow: 1px 1px 2px 2px darkgrey;
+}
+#vehiclebrand{
+    background-color:darkgrey;
+    font-size: 18px;
+    border:1px hidden;
+    border-radius:7px;
+    padding:5px;
+}
+#selectservice{
+    background-color:darkgrey;
+    font-size: 18px;
+    border:1px hidden;
+    border-radius:7px;
+    padding:5px;
+}
+input[type=text]::placeholder{
+    text-align: center;
+}
+textarea{
+    margin-left:20%;
+}
+.viewmechanics:hover{
+    box-shadow: 2px 2px red;
+}
