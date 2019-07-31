@@ -1,4 +1,40 @@
 
+#he{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.col-md-3 p{
+  text-align: cnter;
+}
+#png{
+  border-radius: 50px;
+}
+#top{
+  text-align: center;
+}
+#steps{
+  text-align: center;
+  font-size: 22px;
+}
+#cont{
+background-color:  #a6acaf ;
+border-radius: 20px;
+}
+#keep{
+  text-align: center;
+}
+#ona{
+  font-size: 16px;
+  font-weight: bold;
+}
+#keep{
+  font
+}
+#tuma{
+  text-align: center;
+}
+
 #services h2{
     text-align: center;
 }
