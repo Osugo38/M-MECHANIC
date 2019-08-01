@@ -1,3 +1,6 @@
+#slides{
+  margin-top: 5px;
+}
 
 #he{
   font-size: 20px;
@@ -160,7 +163,7 @@ border-radius: 20px;
   border-radius: 25px;
   display: none;
   text-align: center;
-  
+
 }
 
 #baraka-desc{
@@ -261,4 +264,48 @@ address{
 }
 #mechanic1profile, #mechanic2profile, #mechanic3profile, #mechanic4profile, #mechanic5profile,#mechanic6profile,#mechanic7profile,#mechanic8profile{
   display: none;
+  }
+
+.col-md-3{
+  text-align: center;
+
+}
+
+#partners h2{
+  text-align: center;
+}
+
+#partners img{
+  margin: 5px;
+}
+
+.nav-link{
+  color: white;
+  padding-left: 2px;
+}
+
+.nav-link:hover{
+  background-color: red;
+  color: red;
+}
+
+#how{
+  margin-top: 10px;
+}
+
+#feedback{
+  text-align: center;
+}
+
+
+
+
+  @media screen and (max-width:768px){
+    #selectservice{
+      width: 85%;
+    }
+
+    .col-md-3{
+      align-content: center;
+    }
   }
