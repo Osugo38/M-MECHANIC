@@ -10,6 +10,9 @@
 #png{
   border-radius: 50px;
 }
+#mess{
+  margin-right: 2000px;
+}
 #top{
   text-align: center;
 }
@@ -18,8 +21,7 @@
   font-size: 22px;
 }
 #cont{
-background-color:  #a6acaf ;
-border-radius: 20px;
+background-color:  	darkgrey ;
 }
 #keep{
   text-align: center;
@@ -305,3 +307,16 @@ address{
 
     color: red;
   }
+  /*how m mechanics works*/
+.how{
+  background-color: #f4f6f7 ;
+  border-radius: 50px;
+}
+.serve{
+  background-color: #f4f6f7 ;
+  border-radius: 50px;
+}
+.part{
+  background-color: #f4f6f7 ;
+  border-radius: 50px;
+}
