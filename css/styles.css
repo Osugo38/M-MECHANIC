@@ -28,9 +28,6 @@ border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
 }
-#keep{
-  font
-}
 #tuma{
   text-align: center;
 }
@@ -46,9 +43,9 @@ border-radius: 20px;
     border-radius:7px;
     margin-left:15%;
     margin-right:15%;
-    text-align: center; 
+    text-align: center;
     padding:2%;
-    
+
 }
 #form1:hover{
     box-shadow: 1px 1px 2px 2px darkgrey;
@@ -75,4 +72,130 @@ textarea{
 }
 .viewmechanics:hover{
     box-shadow: 2px 2px red;
+}
+/*toggle to see more about a person.*/
+/* .one{
+  display:block;
+  background-image: url(../images/pic1.jpg);
+  height: 20vh;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 30vh;
+}
+
+.pic1{
+border-radius: 20px;
+}
+.pic2{
+border-radius: 20px;
+}
+.pic3{
+border-radius: 20px;
+}
+.pic4{
+border-radius: 20px;
+}
+.pic5{
+border-radius: 20px;
+}
+.pic6{
+border-radius: 20px;
+}
+
+
+.showdesc{
+  display: block;
+}
+
+.hideimg{
+  display: none;
+} */
+
+#icons{
+  display: block;
+  text-align: center;
+}
+
+#we-offer{
+  width: 100%;
+  display: inline-block;
+}
+
+#we-offer img{
+  width: 29vh;
+  height: 30vh;
+  border-radius: 15px;
+}
+
+#osugo-desc{
+  padding-top: 32px;
+  width: 29vh;
+  height: 30vh;
+  background-image: url(../images/pic1.jpg);
+  color: white;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+  
+}
+
+#baraka-desc{
+  padding-top: 32px;
+  width: 29vh;
+  height: 30vh;
+  background-image: url(../images/pic1.jpg);
+  color: white;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+
+}
+
+#rita-desc{
+  padding-top: 32px;
+  width: 29vh;
+  height: 30vh;
+  background-image: url(../images/pic1.jpg);
+  color: white;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+
+}
+
+#frank-desc{
+  padding-top: 32px;
+  width: 29vh;
+  height: 30vh;
+  background-image: url(../images/pic1.jpg);
+  color: white;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+
+}
+
+#mike-desc{
+  padding-top: 32px;
+  width: 29vh;
+  height: 30vh;
+  background-image: url(../images/pic1.jpg);
+  color: white;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+
+}
+
+#komen-desc{
+  padding-top: 32px;
+  width: 29vh;
+  height: 30vh;
+  background-image: url(../images/pic1.jpg);
+  color: white;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+
 }
