@@ -13,6 +13,9 @@
 #png{
   border-radius: 50px;
 }
+#mess{
+  margin-right: 2000px;
+}
 #top{
   text-align: center;
 }
@@ -21,8 +24,7 @@
   font-size: 22px;
 }
 #cont{
-background-color:  #a6acaf ;
-border-radius: 20px;
+background-color:  	darkgrey ;
 }
 #keep{
   text-align: center;
@@ -124,6 +126,33 @@ textarea{
   text-align: center;
   width: 30vh;
 }
+#founders{
+  margin-top:3%;
+}
+#founders h2{
+  text-align: center;
+}
+#we-offer p{
+text-align: center;
+}
+#osugo-icon{
+  padding:3%;
+}
+#baraka-icon{
+    padding:3%;
+}
+#frank-icon{
+    padding:3%;
+}
+#mike-icon{
+    padding:3%;
+}
+#komen-icon{
+    padding:3%;
+}
+#rita-icon{
+    padding:3%;
+}
 
 .pic1{
 border-radius: 20px;
@@ -151,7 +180,10 @@ border-radius: 20px;
 
 .hideimg{
   display: none;
-} */
+}
+
+
+
 
 #icons{
   display: block;
@@ -281,6 +313,7 @@ address{
   display: none;
   }
 
+
 .col-md-3{
   text-align: center;
 
@@ -324,3 +357,29 @@ address{
       align-content: center;
     }
   }
+  /*success */
+  #success{
+    margin-left: 15%;
+    margin-top: 3%;
+  }
+  #success img{
+    padding:1%;
+  }
+  #success h2{
+    margin-left: 25%;
+
+    color: red;
+  }
+  /*how m mechanics works*/
+.how{
+  background-color: #f4f6f7 ;
+  border-radius: 50px;
+}
+.serve{
+  background-color: #f4f6f7 ;
+  border-radius: 50px;
+}
+.part{
+  background-color: #f4f6f7 ;
+  border-radius: 50px;
+}
