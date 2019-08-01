@@ -28,13 +28,12 @@ border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
 }
-#keep{
-  font
-}
 #tuma{
   text-align: center;
 }
 
+
+/*  styling the services section. */
 #services h2{
     text-align: center;
 }
@@ -75,4 +74,43 @@ textarea{
 }
 .viewmechanics:hover{
     box-shadow: 2px 2px red;
+}
+/* Styling the mechanics page */
+#mechanicheading{
+  text-align: center;
+}
+.mechanicsimage{
+  border:1px hidden;
+}
+.mechanicsimage h6{
+ color:red;
+ text-align: center;
+ padding-top:7px;
+}
+.mechanicsimage p{
+  text-align: center;
+}
+#card-body1{
+  border:1px solid darkgrey;
+}
+button{
+  text-align: center;
+}
+#towingheading{
+  text-align: center;
+}
+#select1,#select2, #select3,#select4,#select5,#select6,#select7,#select8{
+  margin-left:28%;
+}
+li{
+  font-size:14px;
+  font-weight:bold;
+  text-decoration: none;
+}
+address{
+  text-align: left;
+  font-size:12px;
+}
+#mechanic1profile, #mechanic2profile, #mechanic3profile, #mechanic4profile, #mechanic5profile,#mechanic6profile,#mechanic7profile,#mechanic8profile{
+  display: none;
 }
