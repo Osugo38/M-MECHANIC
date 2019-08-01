@@ -28,6 +28,7 @@ border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
 }
+
 #tuma{
   text-align: center;
 }
@@ -74,6 +75,17 @@ textarea{
 }
 .viewmechanics:hover{
     box-shadow: 2px 2px red;
+}
+#success{
+  
+  display: flex;
+  padding: 50px;
+}
+.cards:hover{
+  width: 19rem;
+  color: black;
+  border-radius: 10%;
+
 }
 /* Styling the mechanics page */
 #mechanicheading{
