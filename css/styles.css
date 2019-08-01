@@ -106,6 +106,33 @@ textarea{
   text-align: center;
   width: 30vh;
 }
+#founders{
+  margin-top:3%;
+}
+#founders h2{
+  text-align: center;
+}
+#we-offer p{
+text-align: center;
+}
+#osugo-icon{
+  padding:3%;
+}
+#baraka-icon{
+    padding:3%;
+}
+#frank-icon{
+    padding:3%;
+}
+#mike-icon{
+    padding:3%;
+}
+#komen-icon{
+    padding:3%;
+}
+#rita-icon{
+    padding:3%;
+}
 
 .pic1{
 border-radius: 20px;
@@ -133,7 +160,10 @@ border-radius: 20px;
 
 .hideimg{
   display: none;
-} */
+}
+
+
+
 
 #icons{
   display: block;
@@ -160,7 +190,7 @@ border-radius: 20px;
   border-radius: 25px;
   display: none;
   text-align: center;
-  
+
 }
 
 #baraka-desc{
@@ -261,4 +291,17 @@ address{
 }
 #mechanic1profile, #mechanic2profile, #mechanic3profile, #mechanic4profile, #mechanic5profile,#mechanic6profile,#mechanic7profile,#mechanic8profile{
   display: none;
+  }
+  /*success */
+  #success{
+    margin-left: 15%;
+    margin-top: 3%;
+  }
+  #success img{
+    padding:1%;
+  }
+  #success h2{
+    margin-left: 25%;
+
+    color: red;
   }
