@@ -75,6 +75,27 @@ textarea{
 .viewmechanics:hover{
     box-shadow: 2px 2px red;
 }
+.spanner{
+    background-color:#778899;
+    background-size: cover;
+    height: 40vh;
+    color: #f4f6f7;
+    border-radius: 25px;
+    text-align: center;
+    margin:10px;
+
+}
+#abo{
+  font-size: 100px;
+  padding-top:1000px;
+
+}
+
+#about p{
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+}
 /*toggle to see more about a person.*/
  .one{
   display:block;
