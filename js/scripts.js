@@ -1,4 +1,4 @@
-//
+
 $(document).ready(function(){
   $("#osugo-pic").click(function(){
     $("#osugo-desc").show();
@@ -47,4 +47,71 @@ $(document).ready(function(){
     $("#komen-icon").show();
     $("#komen-desc").hide();
   });
+});
+/* adding hide and show properties to mechanics page*/
+$(document).ready(function(){
+    $("#select1").click(function(){
+        $("#mechanic1profile").show(300);
+        $("#select1").hide(300);
+    });
+    $("#mail1").click(function(){
+        $("#mechanic1profile").hide(300);
+        $("#select1").show(300);
+    });
+    $("#select2").click(function(){
+        $("#mechanic2profile").show(300);
+        $("#select2").hide(300);
+    });
+    $("#mail2").click(function(){
+        $("#mechanic2profile").hide(300);
+        $("#select2").show(300);
+    });
+    $("#select3").click(function(){
+        $("#mechanic3profile").show(300);
+        $("#select3").hide(300);
+    });
+    $("#mail3").click(function(){
+        $("#mechanic3profile").hide(300);
+        $("#select3").show(300);
+    });
+    $("#select4").click(function(){
+        $("#mechanic4profile").show(300);
+        $("#select4").hide(300);
+    });
+    $("#mail4").click(function(){
+        $("#mechanic4profile").hide(300);
+        $("#select4").show(300);
+    });
+    $("#select5").click(function(){
+        $("#mechanic5profile").show(300);
+        $("#select5").hide(300);
+    });
+    $("#mail5").click(function(){
+        $("#mechanic5profile").hide(300);
+        $("#select5").show(300);
+    });
+    $("#select6").click(function(){
+        $("#mechanic6profile").show(300);
+        $("#select6").hide(300);
+    });
+    $("#mail6").click(function(){
+        $("#mechanic6profile").hide(300);
+        $("#select6").show(300);
+    });
+    $("#select7").click(function(){
+        $("#mechanic7profile").show(300);
+        $("#select7").hide(300);
+    });
+    $("#mail7").click(function(){
+        $("#mechanic7profile").hide(300);
+        $("#select7").show(300);
+    });
+    $("#select8").click(function(){
+        $("#mechanic8profile").show(300);
+        $("#select8").hide(300);
+    });
+    $("#mail8").click(function(){
+        $("#mechanic8profile").hide(300);
+        $("#select8").show(300);
+    });
 });
