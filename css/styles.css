@@ -34,7 +34,22 @@ border-radius: 20px;
 #tuma{
   text-align: center;
 }
+.fillform img{
+  border: 1px solid darkgrey;
+  height:60%;
+  width:75%;
+}
+.selectmechanic img{
+  border:1px solid darkgrey;
+  height:60%;
+  width:75%;
+}
 
+.getservice img{
+  border: 1px solid darkgrey;
+  height:60%;
+  width:75%;
+}
 
 /*  styling the services section. */
 #services h2{
