@@ -28,13 +28,12 @@ border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
 }
-#keep{
-  font
-}
 #tuma{
   text-align: center;
 }
 
+
+/*  styling the services section. */
 #services h2{
     text-align: center;
 }
@@ -97,3 +96,169 @@ textarea{
   text-align: center;
   font-size: 20px;
 }
+/*toggle to see more about a person.*/
+ .one{
+  display:block;
+  background-image: url(../images/pic1.jpg);
+  height: 20vh;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 30vh;
+}
+
+.pic1{
+border-radius: 20px;
+}
+.pic2{
+border-radius: 20px;
+}
+.pic3{
+border-radius: 20px;
+}
+.pic4{
+border-radius: 20px;
+}
+.pic5{
+border-radius: 20px;
+}
+.pic6{
+border-radius: 20px;
+}
+
+
+.showdesc{
+  display: block;
+}
+
+.hideimg{
+  display: none;
+} */
+
+#icons{
+  display: block;
+  text-align: center;
+}
+
+#we-offer{
+  width: 100%;
+  display: inline-block;
+}
+
+#we-offer img{
+  width: 29vh;
+  height: 30vh;
+  border-radius: 15px;
+}
+
+#osugo-desc{
+  padding-top: 32px;
+  width: 29vh;
+  height: 30vh;
+  background-image: url(../images/pic1.jpg);
+  color: white;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+  
+}
+
+#baraka-desc{
+  padding-top: 32px;
+  width: 29vh;
+  height: 30vh;
+  background-image: url(../images/pic1.jpg);
+  color: white;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+
+}
+
+#rita-desc{
+  padding-top: 32px;
+  width: 29vh;
+  height: 30vh;
+  background-image: url(../images/pic1.jpg);
+  color: white;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+
+}
+
+#frank-desc{
+  padding-top: 32px;
+  width: 29vh;
+  height: 30vh;
+  background-image: url(../images/pic1.jpg);
+  color: white;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+
+}
+
+#mike-desc{
+  padding-top: 32px;
+  width: 29vh;
+  height: 30vh;
+  background-image: url(../images/pic1.jpg);
+  color: white;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+
+}
+
+#komen-desc{
+  padding-top: 32px;
+  width: 29vh;
+  height: 30vh;
+  background-image: url(../images/pic1.jpg);
+  color: white;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+}
+
+
+/* Styling the mechanics page */
+#mechanicheading{
+  text-align: center;
+}
+.mechanicsimage{
+  border:1px hidden;
+}
+.mechanicsimage h6{
+ color:red;
+ text-align: center;
+ padding-top:7px;
+}
+.mechanicsimage p{
+  text-align: center;
+}
+#card-body1{
+  border:1px solid darkgrey;
+}
+button{
+  text-align: center;
+}
+#towingheading{
+  text-align: center;
+}
+#select1,#select2, #select3,#select4,#select5,#select6,#select7,#select8{
+  margin-left:28%;
+}
+li{
+  font-size:14px;
+  font-weight:bold;
+  text-decoration: none;
+}
+address{
+  text-align: left;
+  font-size:12px;
+}
+#mechanic1profile, #mechanic2profile, #mechanic3profile, #mechanic4profile, #mechanic5profile,#mechanic6profile,#mechanic7profile,#mechanic8profile{
+  display: none;
+  }
