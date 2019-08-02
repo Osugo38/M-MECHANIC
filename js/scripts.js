@@ -1,3 +1,13 @@
+function Detail(service, location, brand, model){
+  this.service = service;
+  this.location = location;
+  this.brand = brand;
+  this.model = model;
+}
+
+
+
+
 
 $(document).ready(function(){
   $("#osugo-pic").click(function(){
@@ -114,4 +124,49 @@ $(document).ready(function(){
         $("#mechanic8profile").hide(300);
         $("#select8").show(300);
     });
+});
+
+
+$(document).ready(function(){
+  $("#form1").submit(function(event){
+    event.preventDefault();
+    var selectedService = $('#selectservice').val();
+    var selectedLocation = $('#selectlocation').val();
+    var selectedBrand = $('#vehiclebrand').val();
+    var inputtedModel = $('#vehiclemodel').val();
+
+    var newDetail = new Detail(selectedService, selectedLocation, selectedBrand, inputtedModel);
+
+    if (newDetail.location == "1" && newDetail.service == "1"){
+      $('.kawangware').show();
+    }
+    else if (newDetail.location == "2" && newDetail.service == "1"){
+      $('.jamhuri').show();
+    }
+    else if (newDetail.location == "1" && newDetail.service == "2"){
+      $('.kawa-tow').show();
+    }
+    else{
+      $('.jamu-tow').show();
+    }
+
+  });
+
+  $('#kawa-close').click(function(){
+      $('.kawangware').hide();
+  });
+  $('#kawatow-close').click(function(){
+      $('.kawa-tow').hide();
+  });
+
+  $('#jamu-close').click(function(){
+      $('.jamhuri').hide();
+  });
+
+  $('#jamutow-close').click(function(){
+      $('.jamu-tow').hide();
+  });
+
+
+
 });
