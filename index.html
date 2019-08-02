@@ -1,235 +1,462 @@
+
+
 <!DOCTYPE html>
+
 <html lang="en">
 
+​
+
   <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>M-MECHANIC</title>
+
     <link rel="icon" href="images/icon.jpg">
+
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+
     <link rel="stylesheet" href="icons/css/all.min.css" type="text/css">
+
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+
     <script type="text/javascript" src="js/jquery.js"></script>
+
     <script type="text/javascript" src=js/bootstrap.min.js></script>
+
     <script src="js/scripts.js"></script>
+
+​
 
   </head>
 
+​
+
   <body>
+
     <div class="container">
 
+​
+
       <div id="navigation">
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
           <a class="navbar-brand" href="#">M-MECHANIC</a>
+
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
             <span class="navbar-toggler-icon"></span>
+
           </button>
 
+​
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
             <ul class="navbar-nav mr-auto">
+
               <li class="nav-item active">
+
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+
               </li>
+
               <li class="nav-item active">
+
                 <a class="nav-link" href="about.html">About Us</a>
+
               </li>
+
             </ul>
+
           </div>
+
         </nav>
+
       </div>
+
+​
 
       <div id="slides">
+
         <div id="demo" class="carousel slide" data-ride="carousel">
+
           <ul class="carousel-indicators">
+
             <li data-target="#demo" data-slide-to="0" class="active"></li>
+
             <li data-target="#demo" data-slide-to="1"></li>
+
             <li data-target="#demo" data-slide-to="2"></li>
+
           </ul>
+
           <div class="carousel-inner">
+
             <div class="carousel-item active">
+
               <img src="images/two.jpeg" alt="Los Angeles" width="1100" height="500">
+
               <div class="carousel-caption">
+
                 <h3>Los Angeles</h3>
+
                 <p>We had such a great time in LA!</p>
+
               </div>
+
             </div>
+
             <div class="carousel-item">
+
               <img src="images/two.jpeg" alt="Chicago" width="1100" height="500">
+
               <div class="carousel-caption">
+
                 <h3>Chicago</h3>
+
                 <p>Thank you, Chicago!</p>
+
               </div>
+
             </div>
+
             <div class="carousel-item">
+
               <img src="images/two.jpeg" alt="New York" width="1100" height="500">
+
               <div class="carousel-caption">
+
                 <h3>New York</h3>
+
                 <p>We love the Big Apple!</p>
+
               </div>
+
             </div>
+
           </div>
+
           <a class="carousel-control-prev" href="#demo" data-slide="prev">
+
             <span class="carousel-control-prev-icon"></span>
+
           </a>
+
           <a class="carousel-control-next" href="#demo" data-slide="next">
+
             <span class="carousel-control-next-icon"></span>
+
           </a>
+
         </div>
+
       </div>
+
+​
 
       <div id="how">
+
         <h1 id="top" >HOW M-MECHANIC WORKS</h1>
+
         <div class="container">
+
           <div class="row">
-            <div class="col-md-3">
+
+            <div class="col-md-4 fillform">
+
               <h1 id="steps">step one</h1>
+
               <h1 id="he">Fill the form</h1>
-              <img src="images/screen.jpg" alt="" id="png">
+
+              <img src="images/fillform.png" alt="" id="png">
+
               <p>Choosing the kind of service <br> Enter your location <br>Enter vehicle type <br> click<strong> view available services</strong></p>
 
+​
+
             </div>
-            <div class="col-md-3">
+
+            <div class="col-md-4 selectmechanic">
+
               <h1 id="steps">step two</h1>
+
               <h1 id="he">Select</h1>
-              <img src="images/screen.jpg" alt="" id="png">
+
+              <img src="images/select.png" alt="" id="png">
+
               <p>A list pops <br>Select one who suits you <br><strong>Contact them.</strong></p>
+
             </div>
-            <div class="col-md-3">
+
+            <div class="col-md-4 getservice2">
+
               <h1 id="steps">step three</h1>
+
               <h1 id="he">Get service</h1>
-              <img src="images/screen.jpg" alt="" id="png">
+
+              <img src="images/getservice2.webp" alt="" id="png" height="250">
+
               <p>Once the person arrives at your destination,they will assist you accordingly.</p>
+
             </div>
-            <div class="col-md-3">
-              <h1 id="steps">step four</h1>
-              <h1 id="he">Pay & rate</h1>
-              <img src="images/screen.jpg" alt="" id="png">
-              <p>Pay <br> Rate the quality of service <br>Leave a comment </p>
-            </div>
+
+            
+
           </div>
+
         </div>
 
+​
+
       </div>
+
+​
 
       <div id="services">
+
         <div class="container">
+
           <h2>Services</h2><br>
+
           <p>To reach out for mechanic and/or towing services,fill the form below.</p>
+
           <form id="form1">
+
             <div class="form-group"><br>
+
               <label for="service">Choose the kind of service:</label><br>
+
               <select id="selectservice">
+
                 <option>Get a mechanic.</option>
+
                 <option>Breakdown Towing & Recovery services.</option>
+
               </select>
+
             </div>
+
             <div class="row">
+
                 <div class="form-group col-sm-8 col-sm-offset-2 d-block mx-auto">
+
                     <label for="location">Enter your location:</label><br>
+
                     <select id="vehiclebrand">
+
                       <option>Kawangware.</option>
+
                       <option>Jamuhuri.</option>
+
                       <option>Karen.</option>
+
                     </select>
+
                   </div>
+
             </div>
+
             <div class="form-group">
+
               <label for="vehiclebrand">Choose the brand of  your vehicle:</label><br>
+
               <select id="vehiclebrand">
+
                 <option>Mercedez Benz.</option>
+
                 <option>BMW.</option>
+
                 <option>Subaru.</option>
+
                 <option>Landrover.</option>
+
                 <option>Toyota.</option>
+
                 <option>Nissan.</option>
+
               </select>
+
             </div>
+
             <div class="row">
+
                 <div class="form-group col-sm-8 col-sm-offset-2 d-block mx-auto">
+
                     <label for="vehiclemodel">Enter the model:</label>
+
                     <input type="text" class="form-control" id="vehiclemodel" placeholder="eg. Toyota MarkX">
+
                   </div>
+
             </div>
+
             <a href="mechanics.html" target="_self"><span class="btn btn-danger viewmechanics" type="submit">View mechanics</span></a>
+
           </form><br><hr>
+
         </div>
+
       </div>
+
+​
 
       <div id="partners">
+
         <div class="container">
+
           <h2>PARTNERS</h2><br>
+
           <div class="row">
+
             <div class="col-md-3">
+
               <img src="images/uber.jpg" alt="" width="40%" id="uber">
+
             </div>
+
             <div class="col-md-3">
+
               <img src="images/taxify.jpg" alt="" width="40%"id="taxify">
+
             </div>
+
             <div class="col-md-3">
+
               <img src="images/Bolt.jpg" alt="" width="40%" id="bolt">
+
             </div>
+
             <div class="col-md-3">
+
               <img src="images/saf.jpg" alt="" width="45%" id="saf">
+
             </div><br>
+
           </div>
+
           <div class="row">
+
             <div class="col-md-3">
+
               <img src="images/shell.jpg" alt="" width="40%" id="shell">
+
             </div>
+
             <div class="col-md-3">
+
               <img src="images/total.jpg" alt="" width="40%" id="total">
+
             </div>
+
             <div class="col-md-3">
+
               <img src="images/chloride.jpg" alt="" width="40%" id="chloride">
+
             </div>
+
             <div class="col-md-3">
+
               <img src="images/kobil.jpg" alt="" width="40%" id="kobil">
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
+​
 
       <div id="contact">
+
         <div class="container">
+
           <h1 id="keep">Keep in touch</h1>
+
           <div class="row" id ="cont">
+
             <div class="col-md-4">
+
               <h1 id="ona">CONTACT</h1>
+
               <i class="far fa-user-circle"> customercare: 0993578</i><br>
+
               <i class="fas fa-phone-square-alt"> +254 (20) 4800000</i><br>
+
               <i class="fas fa-envelope"> info@mmechanics.co.ke</i><br>
-            </div>
-            <div class="col-md-4">
-              <h1 id="ona">FEEDBACK</h1>
-              <form id="feedback">
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Message</label>
-                  <textarea name="name" rows="6" cols="35"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-            </div>
-            <div class="col-md-4">
-              <h1 id="ona">SOCIAL MEDIA</h1>
-              <i class="fab fa-twitter"> @mmechanic_ke</i><br>
-              <i class="fab fa-facebook"> mmechanic_ke</i><br>
-              <i class="fab fa-instagram"> mmechanic_ke</i><br>
 
             </div>
+
+            <div class="col-md-4">
+
+              <h1 id="ona">FEEDBACK</h1>
+
+              <form id="feedback">
+
+                <div class="form-group">
+
+                  <label for="exampleInputEmail1">Email address</label>
+
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+                </div>
+
+                <div class="form-group">
+
+                  <label for="exampleInputPassword1">Message</label>
+
+                  <textarea name="name" rows="6" cols="35"></textarea>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+              </form>
+
+            </div>
+
+            <div class="col-md-4">
+
+              <h1 id="ona">SOCIAL MEDIA</h1>
+
+              <i class="fab fa-twitter"> @mmechanic_ke</i><br>
+
+              <i class="fab fa-facebook"> mmechanic_ke</i><br>
+
+              <i class="fab fa-instagram"> mmechanic_ke</i><br>
+
+​
+
+            </div>
+
+​
 
           </div>
 
+​
+
+​
 
         </div>
 
+​
+
       </div>
 
+​
+
     </div>
+
   </body>
 
+​
+
 </html>
+
