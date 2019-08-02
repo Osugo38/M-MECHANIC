@@ -1,3 +1,6 @@
+#slides{
+  margin-top: 5px;
+}
 
 #he{
   font-size: 20px;
@@ -10,6 +13,9 @@
 #png{
   border-radius: 50px;
 }
+#mess{
+  margin-right: 2000px;
+}
 #top{
   text-align: center;
 }
@@ -17,10 +23,12 @@
   text-align: center;
   font-size: 22px;
 }
-#cont{
-background-color:  #a6acaf ;
-border-radius: 20px;
-}
+
+#contact{
+  margin-top: 20px;
+  background-color: #a6acaf;
+  align-content: center;
+
 #keep{
   text-align: center;
 }
@@ -28,10 +36,34 @@ border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
 }
+
+#ona1{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
 #tuma{
   text-align: center;
 }
+.fillform img{
+  border: 1px solid darkgrey;
+  height:60%;
+  width:75%;
+}
+.selectmechanic img{
+  border:1px solid darkgrey;
+  height:60%;
+  width:75%;
+}
 
+.getservice2 img{
+  border: 1px solid darkgrey;
+  height:60%;
+  width:75%;
+}
 
 /*  styling the services section. */
 #services h2{
@@ -91,6 +123,10 @@ textarea{
 
 }
 
+#about{
+  margin-top: 10vh;
+}
+
 #about p{
   padding: 30px;
   text-align: center;
@@ -105,6 +141,33 @@ textarea{
   border-radius: 10px;
   text-align: center;
   width: 30vh;
+}
+#founders{
+  margin-top:3%;
+}
+#founders h2{
+  text-align: center;
+}
+#we-offer p{
+text-align: center;
+}
+#osugo-icon{
+  padding:3%;
+}
+#baraka-icon{
+    padding:3%;
+}
+#frank-icon{
+    padding:3%;
+}
+#mike-icon{
+    padding:3%;
+}
+#komen-icon{
+    padding:3%;
+}
+#rita-icon{
+    padding:3%;
 }
 
 .pic1{
@@ -133,7 +196,10 @@ border-radius: 20px;
 
 .hideimg{
   display: none;
-} */
+}
+
+
+
 
 #icons{
   display: block;
@@ -160,7 +226,7 @@ border-radius: 20px;
   border-radius: 25px;
   display: none;
   text-align: center;
-  
+
 }
 
 #baraka-desc{
@@ -222,6 +288,24 @@ border-radius: 20px;
   text-align: center;
 }
 
+#founders{
+  margin-top: 15px;
+}
+
+#founders h2{
+  text-align: center;
+}
+
+#success h2{
+    text-align: center;
+}
+
+/* .carousel-item img{
+  width: 35vh;
+  height: 30vh;
+  border-radius: 15px;
+} */
+
 
 /* Styling the mechanics page */
 #mechanicheading{
@@ -262,3 +346,103 @@ address{
 #mechanic1profile, #mechanic2profile, #mechanic3profile, #mechanic4profile, #mechanic5profile,#mechanic6profile,#mechanic7profile,#mechanic8profile{
   display: none;
   }
+
+
+.col-md-3{
+  text-align: center;
+
+}
+
+#partners h2{
+  text-align: center;
+}
+
+#partners img{
+  margin: 5px;
+}
+
+.nav-link{
+  color: white;
+  padding-left: 2px;
+}
+
+.nav-link:hover{
+  background-color: red;
+  color: red;
+}
+
+#how{
+  margin-top: 10px;
+}
+
+#feedback{
+  text-align: center;
+}
+
+.mechanicsimage img{
+  width: 40vh;
+  height: 30vh;
+}
+
+.kawangware{
+  display: none;
+}
+
+.jamhuri{
+  display: none;
+}
+
+.container{
+  margin-top: 10vh;
+}
+
+.kawa-tow{
+  display: none;
+}
+
+.jamu-tow{
+  display: none;
+}
+
+.carousel-caption p{
+  font-size: 25px;
+}
+
+.carousel-caption h3{
+  font-size: 40px;
+}
+
+
+
+
+@media screen and (max-width:768px){
+  #selectservice{
+    width: 85%;
+  }
+
+  /*success */
+  #success{
+    margin-left: 15%;
+    margin-top: 3%;
+  }
+  #success img{
+    padding:1%;
+  }
+  #success h2{
+    margin-left: 25%;
+
+    color: red;
+  }
+  /*how m mechanics works*/
+.how{
+  background-color: #f4f6f7 ;
+  border-radius: 50px;
+}
+.serve{
+  background-color: #f4f6f7 ;
+  border-radius: 50px;
+}
+.part{
+  background-color: #f4f6f7 ;
+  border-radius: 50px;
+}
