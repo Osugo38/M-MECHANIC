@@ -4,459 +4,809 @@
 
 <html lang="en">
 
-​
 
-  <head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>M-MECHANIC</title>
+  <link rel="icon" href="images/icon.jpg">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="icons/css/all.min.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src=js/bootstrap.min.js> </script> <script src="js/scripts.js"></script>
 
-    <meta charset="UTF-8">
+</head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+  <div class="container">
 
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <div id="navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">M-MECHANIC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <title>M-MECHANIC</title>
-
-    <link rel="icon" href="images/icon.jpg">
-
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-
-    <link rel="stylesheet" href="icons/css/all.min.css" type="text/css">
-
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-
-    <script type="text/javascript" src="js/jquery.js"></script>
-
-    <script type="text/javascript" src=js/bootstrap.min.js></script>
-
-    <script src="js/scripts.js"></script>
-
-​
-
-  </head>
-
-​
-
-  <body>
-
-    <div class="container">
-
-​
-
-      <div id="navigation">
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-
-          <a class="navbar-brand" href="#">M-MECHANIC</a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-            <span class="navbar-toggler-icon"></span>
-
-          </button>
-
-​
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            <ul class="navbar-nav mr-auto">
-
-              <li class="nav-item active">
-
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-
-              </li>
-
-              <li class="nav-item active">
-
-                <a class="nav-link" href="about.html">About Us</a>
-
-              </li>
-
-            </ul>
-
-          </div>
-
-        </nav>
-
-      </div>
-
-​
-
-      <div id="slides">
-
-        <div id="demo" class="carousel slide" data-ride="carousel">
-
-          <ul class="carousel-indicators">
-
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-
-            <li data-target="#demo" data-slide-to="1"></li>
-
-            <li data-target="#demo" data-slide-to="2"></li>
-
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
           </ul>
-
-          <div class="carousel-inner">
-
-            <div class="carousel-item active">
-
-              <img src="images/two.jpeg" alt="Los Angeles" width="1100" height="500">
-
-              <div class="carousel-caption">
-
-                <h3>Los Angeles</h3>
-
-                <p>We had such a great time in LA!</p>
-
-              </div>
-
-            </div>
-
-            <div class="carousel-item">
-
-              <img src="images/two.jpeg" alt="Chicago" width="1100" height="500">
-
-              <div class="carousel-caption">
-
-                <h3>Chicago</h3>
-
-                <p>Thank you, Chicago!</p>
-
-              </div>
-
-            </div>
-
-            <div class="carousel-item">
-
-              <img src="images/two.jpeg" alt="New York" width="1100" height="500">
-
-              <div class="carousel-caption">
-
-                <h3>New York</h3>
-
-                <p>We love the Big Apple!</p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
-
-            <span class="carousel-control-prev-icon"></span>
-
-          </a>
-
-          <a class="carousel-control-next" href="#demo" data-slide="next">
-
-            <span class="carousel-control-next-icon"></span>
-
-          </a>
-
         </div>
+      </nav>
+    </div>
 
-      </div>
-
-​
-
-      <div id="how">
-
-        <h1 id="top" >HOW M-MECHANIC WORKS</h1>
-
-        <div class="container">
-
-          <div class="row">
-
-            <div class="col-md-4 fillform">
-
-              <h1 id="steps">step one</h1>
-
-              <h1 id="he">Fill the form</h1>
-
-              <img src="images/fillform.png" alt="" id="png">
-
-              <p>Choosing the kind of service <br> Enter your location <br>Enter vehicle type <br> click<strong> view available services</strong></p>
-
-​
-
+    <div id="slides">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Slide1.jpg" alt="Los Angeles" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>"Stranded or Stuck?"</h3>
+              <p>M-MECHANIC will get to you anywhere and everywhere</p>
             </div>
-
-            <div class="col-md-4 selectmechanic">
-
-              <h1 id="steps">step two</h1>
-
-              <h1 id="he">Select</h1>
-
-              <img src="images/select.png" alt="" id="png">
-
-              <p>A list pops <br>Select one who suits you <br><strong>Contact them.</strong></p>
-
-            </div>
-
-            <div class="col-md-4 getservice2">
-
-              <h1 id="steps">step three</h1>
-
-              <h1 id="he">Get service</h1>
-
-              <img src="images/getservice2.webp" alt="" id="png" height="250">
-
-              <p>Once the person arrives at your destination,they will assist you accordingly.</p>
-
-            </div>
-
-            
-
           </div>
-
-        </div>
-
-​
-
-      </div>
-
-​
-
-      <div id="services">
-
-        <div class="container">
-
-          <h2>Services</h2><br>
-
-          <p>To reach out for mechanic and/or towing services,fill the form below.</p>
-
-          <form id="form1">
-
-            <div class="form-group"><br>
-
-              <label for="service">Choose the kind of service:</label><br>
-
-              <select id="selectservice">
-
-                <option>Get a mechanic.</option>
-
-                <option>Breakdown Towing & Recovery services.</option>
-
-              </select>
-
+          <div class="carousel-item">
+            <img src="images/slide2.jpg" alt="Chicago" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>Zero worries</h3>
+              <p>Remain stress-free even in your vehicle's distress</p>
             </div>
-
-            <div class="row">
-
-                <div class="form-group col-sm-8 col-sm-offset-2 d-block mx-auto">
-
-                    <label for="location">Enter your location:</label><br>
-
-                    <select id="vehiclebrand">
-
-                      <option>Kawangware.</option>
-
-                      <option>Jamuhuri.</option>
-
-                      <option>Karen.</option>
-
-                    </select>
-
-                  </div>
-
-            </div>
-
-            <div class="form-group">
-
-              <label for="vehiclebrand">Choose the brand of  your vehicle:</label><br>
-
-              <select id="vehiclebrand">
-
-                <option>Mercedez Benz.</option>
-
-                <option>BMW.</option>
-
-                <option>Subaru.</option>
-
-                <option>Landrover.</option>
-
-                <option>Toyota.</option>
-
-                <option>Nissan.</option>
-
-              </select>
-
-            </div>
-
-            <div class="row">
-
-                <div class="form-group col-sm-8 col-sm-offset-2 d-block mx-auto">
-
-                    <label for="vehiclemodel">Enter the model:</label>
-
-                    <input type="text" class="form-control" id="vehiclemodel" placeholder="eg. Toyota MarkX">
-
-                  </div>
-
-            </div>
-
-            <a href="mechanics.html" target="_self"><span class="btn btn-danger viewmechanics" type="submit">View mechanics</span></a>
-
-          </form><br><hr>
-
-        </div>
-
-      </div>
-
-​
-
-      <div id="partners">
-
-        <div class="container">
-
-          <h2>PARTNERS</h2><br>
-
-          <div class="row">
-
-            <div class="col-md-3">
-
-              <img src="images/uber.jpg" alt="" width="40%" id="uber">
-
-            </div>
-
-            <div class="col-md-3">
-
-              <img src="images/taxify.jpg" alt="" width="40%"id="taxify">
-
-            </div>
-
-            <div class="col-md-3">
-
-              <img src="images/Bolt.jpg" alt="" width="40%" id="bolt">
-
-            </div>
-
-            <div class="col-md-3">
-
-              <img src="images/saf.jpg" alt="" width="45%" id="saf">
-
-            </div><br>
-
           </div>
-
-          <div class="row">
-
-            <div class="col-md-3">
-
-              <img src="images/shell.jpg" alt="" width="40%" id="shell">
-
-            </div>
-
-            <div class="col-md-3">
-
-              <img src="images/total.jpg" alt="" width="40%" id="total">
-
-            </div>
-
-            <div class="col-md-3">
-
-              <img src="images/chloride.jpg" alt="" width="40%" id="chloride">
-
-            </div>
-
-            <div class="col-md-3">
-
-              <img src="images/kobil.jpg" alt="" width="40%" id="kobil">
+          <div class="carousel-item">
+            <img src="images/slide3.jpg" alt="New York" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>911 for your car</h3>
+              <p>An always open distress  line for your car </p>
 
             </div>
 
           </div>
 
         </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
 
       </div>
+    </div>
 
-​
 
-      <div id="contact">
+    <div id="how">
+      <h1 id="top">HOW M-MECHANIC WORKS</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h1 id="steps">step one</h1>
+            <h1 id="he">Fill the form</h1>
+            <img src="images/fillform.png" alt="" id="png">
+            <p>Choosing the kind of service <br> Enter your location <br>Enter vehicle type <br> click<strong> view available services</strong></p>
 
-        <div class="container">
-
-          <h1 id="keep">Keep in touch</h1>
-
-          <div class="row" id ="cont">
-
-            <div class="col-md-4">
-
-              <h1 id="ona">CONTACT</h1>
-
-              <i class="far fa-user-circle"> customercare: 0993578</i><br>
-
-              <i class="fas fa-phone-square-alt"> +254 (20) 4800000</i><br>
-
-              <i class="fas fa-envelope"> info@mmechanics.co.ke</i><br>
-
-            </div>
-
-            <div class="col-md-4">
-
-              <h1 id="ona">FEEDBACK</h1>
-
-              <form id="feedback">
-
-                <div class="form-group">
-
-                  <label for="exampleInputEmail1">Email address</label>
-
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-
-                </div>
-
-                <div class="form-group">
-
-                  <label for="exampleInputPassword1">Message</label>
-
-                  <textarea name="name" rows="6" cols="35"></textarea>
-
-                </div>
-
-                <button type="submit" class="btn btn-primary">Submit</button>
-
-              </form>
-
-            </div>
-
-            <div class="col-md-4">
-
-              <h1 id="ona">SOCIAL MEDIA</h1>
-
-              <i class="fab fa-twitter"> @mmechanic_ke</i><br>
-
-              <i class="fab fa-facebook"> mmechanic_ke</i><br>
-
-              <i class="fab fa-instagram"> mmechanic_ke</i><br>
-
-​
-
-            </div>
-
-​
+          </div>
+          <div class="col-md-4">
+            <h1 id="steps">step two</h1>
+            <h1 id="he">Select</h1>
+            <img src="images/select.png" alt="" id="png">
+            <p>A list pops <br>Select one who suits you <br><strong>Contact them.</strong></p>
+          </div>
+          <div class="col-md-4">
+            <h1 id="steps">step three</h1>
+            <h1 id="he">Get service</h1>
+            <img src="images/getservice2.webp" alt="" id="png">
+            <p>Once the person arrives at your destination,they will assist you accordingly.</p>
 
           </div>
 
-​
-
-​
-
         </div>
 
-​
-
       </div>
-
-​
 
     </div>
 
-  </body>
+    <div id="services">
+      <div class="container">
+        <h2>Services</h2><br>
+        <p>To reach out for mechanic and/or towing services,fill the form below.</p>
+        <form id="form1">
+          <div class="form-group"><br>
+            <label for="service">Choose the kind of service:</label><br>
+            <select id="selectservice">
+              <option value="1">Get a mechanic.</option>
+              <option value="2">Breakdown Towing & Recovery services.</option>
+            </select>
+          </div>
+          <div class="row">
+            <div class="form-group col-sm-8 col-sm-offset-2 d-block mx-auto">
+              <label for="location">Enter your location:</label><br>
+              <select id="selectlocation">
+                <option value="1">Kawangware.</option>
+                <option value="2">Jamhuri.</option>
 
-​
+              </select>
 
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="vehiclebrand">Choose the brand of your vehicle:</label><br>
+            <select id="vehiclebrand">
+              <option value="1">Mercedez Benz.</option>
+              <option value="2">BMW.</option>
+              <option value="3">Subaru.</option>
+              <option value="4">Landrover.</option>
+              <option value="5">Toyota.</option>
+              <option value="6">Nissan.</option>
+            </select>
+          </div>
+          <div class="row">
+            <div class="form-group col-sm-8 col-sm-offset-2 d-block mx-auto">
+              <label for="vehiclemodel">Enter the model:</label>
+              <input type="text" class="form-control" id="vehiclemodel" placeholder="eg. Toyota MarkX">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" id="checkout-button">View Mechanics/Breakdowns</button>
+        </form><br>
+        <hr>
+      </div>
+    </div>
+
+    <div class="kawangware">
+
+      <!-- kawangware -->
+
+      <h2>Kawangware</h2><button type="button" class="btn btn-primary" name="button" onclick="close()" id="kawa-close">Close</button>
+      <div class="row">
+
+        <!-- <div class="col-md-2">
+                </div> -->
+        <div class="col-md-3 mechanicsimage">
+          <div class="view overlay">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh23Z_aXuucoPch7yJ8sPSvbX6OnIKZJAPOPPI5UOzk3Rg1GsXAA" width="100%">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <div id="card-body1">
+            <h6 class="card-title">Ken Churchill:</h6>
+
+            <p class="card-text">Small engine Mechanic.</p>
+            <span class="btn btn-danger" type="text" name="select" id="select1">View profile</span>
+            <div id="mechanic1profile"><br>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Contacts</li>
+                  </ul>
+                  <address>
+                    Tel:07900000001
+                    Email:churchill@gmail.com
+                    Location: Kawangware
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Experience</li>
+                  </ul>
+                  <address>
+                    <p>4years of active<br> practice.</p>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Education</li>
+                  </ul>
+                  <address>
+                    <p>JKUAT.</p>
+                    <p>Bachelor's degree<br>(Mechanical engineering).</p>
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Awards</li>
+                  </ul>
+                  <address>
+                    <p>Voted best mechanic<br>(2014)Nakuru town.</p>
+                  </address>
+                </div>
+              </div>
+              <button class="btn btn-danger" id="mail1">Close info</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 mechanicsimage">
+          <div class="view overlay">
+            <img src="http://dashboard.fundislink.com/image_uploads/category_images/cea574d8f63f88ecd1688e2e7bb1c442.jpeg" width="100%">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <div id="card-body1">
+            <h6 class="card-title">Joseck Osugo:</h6>
+
+            <p class="card-text">Engine Mechanic.</p>
+            <span class="btn btn-danger" type="text" name="select" id="select2">View profile</span>
+            <div id="mechanic2profile"><br>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Contacts</li>
+                  </ul>
+                  <address>
+                    Tel:0723794001
+                    Email:joseck@gmail.com
+                    Location: Kawangware.
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Experience</li>
+                  </ul>
+                  <address>
+                    <p>1year(s) of active<br> practice.</p>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Education</li>
+                  </ul>
+                  <address>
+                    <p>Most technical college(Nakuru)</p>
+                    <p>Diploma degree<br>(Mechanical engineering).</p>
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Awards</li>
+                  </ul>
+                  <address>
+                    <p>None.</p>
+                  </address>
+                </div>
+              </div>
+              <button class="btn btn-danger" id="mail2">Close info</button>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-md-3 mechanicsimage">
+          <div class="view overlay">
+            <img src="http://ilo.org/dyn/media/images/watermark/cn1237.jpg" width="100%">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <div></div>
+          <div id="card-body1">
+            <h6 class="card-title">Rosemarie</h6>
+
+            <p class="card-text">Auto electrician.</p>
+            <span class="btn btn-danger" type="text" name="select" id="select3">View profile</span>
+            <div id="mechanic3profile">
+              <br>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Contacts</li>
+                  </ul>
+                  <address>
+                    Tel:0759325626
+                    Email:rosemary@yahoo.com
+                    Location: Kawangware.
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Experience</li>
+                  </ul>
+                  <address>
+                    <p>1 year(s)of active<br> practice.</p>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Education</li>
+                  </ul>
+                  <address>
+                    <p>Naivasha technical training institute.</p>
+                    <p>Certificate in Auto Electrician</p>
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Awards</li>
+                  </ul>
+                  <address>
+                    <p>Most viable project(2015 mechanic awards).</p>
+                  </address>
+                </div>
+              </div>
+              <button class="btn btn-danger" id="mail3">Close info</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 mechanicsimage">
+          <div class="view overlay">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSghsAlPXBVH3vCE-1m8BfDHde7OcqsGdC7ehqFBY8gQxz-32Dh" width="100%">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <div id="card-body1">
+            <h6 class="card-title">Maggy Shanice</h6>
+
+            <p class="card-text">Auto Electrician.</p>
+            <span class="btn btn-danger" type="text" name="select" id="select4">View profile</span>
+            <div id="mechanic4profile">
+              <br>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Contacts</li>
+                  </ul>
+                  <address>
+                    Tel:02059656263
+                    Email:maggy@gmail.com
+                    Location: Nairobi(Jamhuri).
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Experience</li>
+                  </ul>
+                  <address>
+                    <p>5years of active<br> practice.</p>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Education</li>
+                  </ul>
+                  <address>
+                    <p>Mumbuni technical college<br>(Machakos).</p>
+                    <p>Diploma in Motor Vehicle Mechanics</p>
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Awards</li>
+                  </ul>
+                  <address>
+                    <p>None.</p>
+                  </address>
+                </div>
+              </div>
+              <button class="btn btn-danger" id="mail4">Close info</button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-2"></div> -->
+      </div><br>
+
+    </div>
+
+    <!-- jamhuri -->
+
+
+    <div class="jamhuri">
+      <h2>Jamhuri</h2><button type="button" class="btn btn-danger" name="button" onclick="hide()" id="jamu-close">close</button>
+      <div class="row">
+
+        <!-- <div class="col-md-2">
+                    </div> -->
+        <div class="col-md-3 mechanicsimage">
+          <div class="view overlay">
+            <img src="https://www.cartalk.com/sites/default/files/blogs/behindthegrease/images/slide_366012_4162386_free.jpg" width="100%">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <div id="card-body1">
+            <h6 class="card-title">Wendy skool</h6>
+
+            <p class="card-text">Engine Mechanic.</p>
+            <span class="btn btn-danger" type="text" name="select" id="select5">View profile</span>
+            <div id="mechanic5profile">
+              <br>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Contacts</li>
+                  </ul>
+                  <address>
+                    Tel: +254986321489
+                    Email: wendyskool@gmail.com
+                    Location: Nairobi(Jamhuri).
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Experience</li>
+                  </ul>
+                  <address>
+                    <p>3year(s)of active<br> practice.</p>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Education</li>
+                  </ul>
+                  <address>
+                    <p>JKUAT.</p>
+                    <p>Certificate in Car Fabrication.</p>
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Awards</li>
+                  </ul>
+                  <address>
+                    <p>Best Car Fabrication(2015).</p>
+                  </address>
+                </div>
+              </div>
+              <button class="btn btn-danger" id="mail5">Close info</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 mechanicsimage">
+          <div class="view overlay">
+            <img src="http://www.a-oneauto.co.ke/images/team-3.jpg  " width="100%">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <div id="card-body1">
+            <h6 class="card-title">Franklin Kim</h6>
+
+            <p class="card-text">General Automotive Mechanic</p>
+            <span class="btn btn-danger" type="text" name="select" id="select6">View profile</span>
+            <div id="mechanic6profile">
+              <br>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Contacts</li>
+                  </ul>
+                  <address>
+                    Tel:0798963255
+                    Email:franklin@gmai.com
+                    Location: Nairobi(Jamhuri).
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Experience</li>
+                  </ul>
+                  <address>
+                    <p>3years of active<br> practice.</p>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Education</li>
+                  </ul>
+                  <address>
+                    <p>JKUAT.</p>
+                    <p>Diploma in Automotive Mechanics</p>
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Awards</li>
+                  </ul>
+                  <address>
+                    <p>None</p>
+                  </address>
+                </div>
+              </div>
+              <button class="btn btn-danger" id="mail6">Close info</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 mechanicsimage">
+          <div class="view overlay">
+            <img src="https://www.capitalfm.co.ke/business/files/2017/03/CHARANPAL-SINGH.png" width="100%">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <div></div>
+          <div id="card-body1">
+            <h6 class="card-title">Cashy Chris</h6>
+
+            <p class="card-text">Engine Mechanic.</p>
+            <span class="btn btn-danger" type="text" name="select" id="select7">View profile</span>
+            <div id="mechanic7profile">
+              <br>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Contacts</li>
+                  </ul>
+                  <address>
+                    Tel:0787932253
+                    Email:cashychris@gmai.com
+                    Location: Nairobi(Jamhuri).
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Experience</li>
+                  </ul>
+                  <address>
+                    <p>2year(s) of active<br> practice.</p>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Education</li>
+                  </ul>
+                  <address>
+                    <p>Kiirua Technical college(Meru).</p>
+                    <p>Bachelor's degree<br>(Mechanical engineering).</p>
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Awards</li>
+                  </ul>
+                  <address>
+                    <p>None</p>
+                  </address>
+                </div>
+              </div>
+              <button class="btn btn-danger" id="mail7">Close info</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 mechanicsimage">
+          <div class="view overlay">
+            <img src="https://www.standardmedia.co.ke/images/sunday/imgtcpwva.jpg" width="100%">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <div id="card-body1">
+            <h6 class="card-title">Rita Anita</h6>
+
+            <p class="card-text">Car electrical installation wiring.</p>
+            <button class="btn btn-danger" type="text" name="select" id="select8">View profile</button>
+            <div id="mechanic8profile">
+              <br>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Contacts</li>
+                  </ul>
+                  <address>
+                    Tel:+2548936625
+                    Email:ritaanita@gmail.com
+                    Location: Nairobi(Jamhuri).
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Experience</li>
+                  </ul>
+                  <address>
+                    <p>1year(s) of active<br> practice.</p>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>Education</li>
+                  </ul>
+                  <address>
+                    <p>Mumbuni technical college.</p>
+                    <p> Certificate engineering and car technology.</p>
+                  </address>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Awards</li>
+                  </ul>
+                  <address>
+                    <p>None.</p>
+                  </address>
+                </div>
+              </div>
+              <button class="btn btn-danger" id="mail8">Close info</button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="kawa-tow">
+      <h2>Kawangware Breakdowns</h2>
+      <button type="button" id='kawatow-close' class="btn btn-primary" name="button">Close</button>
+      <div class="col-md-3 mechanicsimage">
+        <div class="view overlay">
+          <img src="https://nairobinews.nation.co.ke/wp-content/uploads/2018/07/DhpsN93W4AEGfib.jpg" width="100%">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+        <div id="card-body1">
+          <h6 class="card-title">Pull_car Towing serivices.</h6>
+
+          <p class="card-text">With specialization in cars<br> your car will be handled with care<br> with
+            affordability.</p>
+          <div id="">
+            <address>
+              Tel: +25493396993<br>
+              Email: pull_cartowing@gmail.com
+            </address>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mechanicsimage">
+        <div class="view overlay">
+          <img src="https://lh3.googleusercontent.com/JAjm-MeLgA-F0dN_YAcTCXOBUyduQxx9nzXiahcdlg4LtdEMUFZbObIKfybX_m7NqbK6LmRT=w1080-h608-p-no-v0" width="100%">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+        <div id="card-body1">
+          <h6 class="card-title">Ca-tow breakdown services</h6>
+
+          <p class="card-text">Located in Kawangware,<br>get in touch with us <br> and we be there to your rescue
+          </p>
+          <div id="">
+            <address>
+              Tel: +254693259632<br>
+              Email: ca_tow@gmail.com
+            </address>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="jamu-tow">
+      <h2>Jamhuri Breakdowns</h2>
+      <button type="button" id='jamutow-close' class="btn btn-primary" name="button">Close</button>
+      <div class="row">
+        <div class="col-md-3 mechanicsimage">
+          <div class="view overlay">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYs68efEuvY9miOBiISqIDOgyqOaTthlxwKOZPDpyW0kO9cT7RTw" width="100%">
+            <div class="mask rgba-white-slight"></div>
+
+          </div>
+          <div></div>
+          <div id="card-body1">
+            <h6 class="card-title">V-hicall towing services.</h6>
+
+            <p class="card-text">Get breakdownas fast as possible<br>V-hicall breakdown services<br> is here for
+              you.</p>
+
+
+            <div id="">
+              <address>
+                Tel: +25489582286<br>
+                Email:v_hicall@towing.ac.ke
+              </address>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mechanicsimage">
+          <div class="view overlay">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtlWsv0BsVq1oI4sF2x_Ozu_KhVveq0yQHmFIPoMpNL7skmPov" width="100%">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <div id="card-body1">
+            <h6 class="card-title">Lorry-breakdown services</h6>
+
+            <p class="card-text">With Specialization in large commercial vehicle<br>get your lorry taken care
+              of.</p>
+
+            <div id="">
+              <address>
+                Tel:+2549322894<br>
+                Email:lorry_breakdown@gmail.com
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <hr>
+    </div>
+
+
+    <div id="partners">
+      <div class="container">
+        <h2>PARTNERS</h2><br>
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/uber.jpg" alt="" width="40%" id="uber">
+          </div>
+          <div class="col-md-3">
+            <img src="images/taxify.jpg" alt="" width="40%" id="taxify">
+          </div>
+          <div class="col-md-3">
+            <img src="images/Bolt.jpg" alt="" width="40%" id="bolt">
+          </div>
+          <div class="col-md-3">
+            <img src="images/saf.jpg" alt="" width="45%" id="saf">
+          </div><br>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/shell.jpg" alt="" width="40%" id="shell">
+          </div>
+          <div class="col-md-3">
+            <img src="images/total.jpg" alt="" width="40%" id="total">
+          </div>
+          <div class="col-md-3">
+            <img src="images/chloride.jpg" alt="" width="40%" id="chloride">
+          </div>
+          <div class="col-md-3">
+            <img src="images/kobil.jpg" alt="" width="40%" id="kobil">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="container-fluid" id="contact">
+    <h1 id="keep">Keep in touch</h1>
+    <div class="row" id="cont">
+      <div class="col-md-4">
+        <h1 id="ona">CONTACT</h1>
+        <i class="far fa-user-circle"> customercare: 0993578</i><br>
+        <i class="fas fa-phone-square-alt"> +254 (20) 4800000</i><br>
+        <i class="fas fa-envelope"> info@mmechanics.co.ke</i><br>
+      </div>
+      <div class="col-md-4">
+        <h1 id="ona1">FEEDBACK</h1>
+        <form id="feedback">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Message</label>
+            <textarea name="name" rows="6" cols="35"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <h1 id="ona">SOCIAL MEDIA</h1>
+        <i class="fab fa-twitter"> @mmechanic_ke</i><br>
+        <i class="fab fa-facebook"> mmechanic_ke</i><br>
+        <i class="fab fa-instagram"> mmechanic_ke</i><br>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
 
