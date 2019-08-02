@@ -20,10 +20,13 @@
   text-align: center;
   font-size: 22px;
 }
-#cont{
-background-color:  #a6acaf ;
-border-radius: 20px;
+
+#contact{
+  margin-top: 20px;
+  background-color: #a6acaf;
+  align-content: center;
 }
+
 #keep{
   text-align: center;
 }
@@ -31,6 +34,15 @@ border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
 }
+
+#ona1{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
 #tuma{
   text-align: center;
 }
@@ -92,6 +104,10 @@ textarea{
   font-size: 100px;
   padding-top:1000px;
 
+}
+
+#about{
+  margin-top: 10vh;
 }
 
 #about p{
@@ -225,6 +241,24 @@ border-radius: 20px;
   text-align: center;
 }
 
+#founders{
+  margin-top: 15px;
+}
+
+#founders h2{
+  text-align: center;
+}
+
+#success h2{
+    text-align: center;
+}
+
+/* .carousel-item img{
+  width: 35vh;
+  height: 30vh;
+  border-radius: 15px;
+} */
+
 
 /* Styling the mechanics page */
 #mechanicheading{
@@ -297,15 +331,48 @@ address{
   text-align: center;
 }
 
+.mechanicsimage img{
+  width: 40vh;
+  height: 30vh;
+}
+
+.kawangware{
+  display: none;
+}
+
+.jamhuri{
+  display: none;
+}
+
+.container{
+  margin-top: 10vh;
+}
+
+.kawa-tow{
+  display: none;
+}
+
+.jamu-tow{
+  display: none;
+}
+
+.carousel-caption p{
+  font-size: 25px;
+}
+
+.carousel-caption h3{
+  font-size: 40px;
+}
 
 
 
-  @media screen and (max-width:768px){
-    #selectservice{
-      width: 85%;
-    }
 
-    .col-md-3{
-      align-content: center;
-    }
+@media screen and (max-width:768px){
+  #selectservice{
+    width: 85%;
   }
+
+  .col-md-3{
+    align-content: center;
+  }
+}
