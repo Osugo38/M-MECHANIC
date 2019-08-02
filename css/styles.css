@@ -1,448 +1,797 @@
 #slides{
+
   margin-top: 5px;
+
 }
 
 #he{
+
   font-size: 20px;
+
   font-weight: bold;
+
   text-align: center;
+
 }
+
 .col-md-3 p{
+
   text-align: cnter;
+
 }
+
 #png{
+
   border-radius: 50px;
+
 }
+
 #mess{
+
   margin-right: 2000px;
+
 }
+
 #top{
+
   text-align: center;
+
 }
+
 #steps{
+
   text-align: center;
+
   font-size: 22px;
+
 }
 
 #contact{
+
   margin-top: 20px;
+
   background-color: #a6acaf;
+
   align-content: center;
 
-#keep{
-  text-align: center;
 }
+
+#keep{
+
+  text-align: center;
+
+}
+
 #ona{
+
   font-size: 16px;
+
   font-weight: bold;
+
 }
 
 #ona1{
+
   text-align: center;
+
   font-size: 16px;
+
   font-weight: bold;
+
 }
-
-
 
 #tuma{
+
   text-align: center;
+
 }
+
 .fillform img{
+
   border: 1px solid darkgrey;
+
   height:60%;
+
   width:75%;
+
 }
+
 .selectmechanic img{
+
   border:1px solid darkgrey;
+
   height:60%;
-  width:75%;
+
+  width:75%;  
+
 }
 
 .getservice2 img{
+
   border: 1px solid darkgrey;
+
   height:60%;
+
   width:75%;
+
+}
+
+.getservice2{
+
+  text-align: center;
+
+}
+
+.selectmechanic{
+
+  text-align: center;
+
+}
+
+.fillform{
+
+  text-align: center;
+
 }
 
 /*  styling the services section. */
+
 #services h2{
+
     text-align: center;
+
 }
+
 #services p{
+
     text-align: center;
+
 }
+
 #form1{
+
     border:1px solid darkgrey;
+
     border-radius:7px;
+
     margin-left:15%;
+
     margin-right:15%;
+
     text-align: center;
+
     padding:2%;
 
 }
+
 #form1:hover{
+
     box-shadow: 1px 1px 2px 2px darkgrey;
+
 }
+
 #vehiclebrand{
+
     background-color:darkgrey;
+
     font-size: 18px;
+
     border:1px hidden;
+
     border-radius:7px;
+
     padding:5px;
+
 }
+
 #selectservice{
+
     background-color:darkgrey;
+
     font-size: 18px;
+
     border:1px hidden;
+
     border-radius:7px;
+
     padding:5px;
+
 }
+
 input[type=text]::placeholder{
+
     text-align: center;
+
 }
+
 textarea{
+
     margin-left:20%;
+
 }
+
 .viewmechanics:hover{
+
     box-shadow: 2px 2px red;
+
 }
+
 .spanner{
+
     background-color:#778899;
+
     background-size: cover;
+
     height: 40vh;
+
     color: #f4f6f7;
+
     border-radius: 25px;
+
     text-align: center;
+
     margin:10px;
 
 }
+
 #abo{
+
   font-size: 100px;
+
   padding-top:1000px;
 
 }
 
 #about{
+
   margin-top: 10vh;
+
 }
 
 #about p{
+
   padding: 30px;
+
   text-align: center;
+
   font-size: 20px;
+
 }
+
 /*toggle to see more about a person.*/
+
  .one{
+
   display:block;
+
   background-image: url(../images/pic1.jpg);
+
   height: 20vh;
+
   color: white;
+
   border-radius: 10px;
+
   text-align: center;
+
   width: 30vh;
+
 }
+
 #founders{
+
   margin-top:3%;
+
 }
+
 #founders h2{
+
   text-align: center;
+
 }
+
 #we-offer p{
+
 text-align: center;
+
 }
+
 #osugo-icon{
+
   padding:3%;
+
 }
+
 #baraka-icon{
+
     padding:3%;
+
 }
+
 #frank-icon{
+
     padding:3%;
+
 }
+
 #mike-icon{
+
     padding:3%;
+
 }
+
 #komen-icon{
+
     padding:3%;
+
 }
+
 #rita-icon{
+
     padding:3%;
+
 }
 
 .pic1{
+
 border-radius: 20px;
-}
-.pic2{
-border-radius: 20px;
-}
-.pic3{
-border-radius: 20px;
-}
-.pic4{
-border-radius: 20px;
-}
-.pic5{
-border-radius: 20px;
-}
-.pic6{
-border-radius: 20px;
+
 }
 
+.pic2{
+
+border-radius: 20px;
+
+}
+
+.pic3{
+
+border-radius: 20px;
+
+}
+
+.pic4{
+
+border-radius: 20px;
+
+}
+
+.pic5{
+
+border-radius: 20px;
+
+}
+
+.pic6{
+
+border-radius: 20px;
+
+}
 
 .showdesc{
+
   display: block;
+
 }
 
 .hideimg{
+
   display: none;
+
 }
 
-
-
-
 #icons{
+
   display: block;
+
   text-align: center;
+
 }
 
 #we-offer{
+
   width: 100%;
+
   display: inline-block;
+
 }
 
 #we-offer img{
+
   width: 29vh;
+
   height: 30vh;
+
   border-radius: 15px;
+
 }
 
 #osugo-desc{
+
   padding-top: 32px;
+
   width: 29vh;
+
   height: 30vh;
+
   background-image: url(../images/pic1.jpg);
+
   color: white;
+
   border-radius: 25px;
+
   display: none;
+
   text-align: center;
 
 }
 
 #baraka-desc{
+
   padding-top: 32px;
+
   width: 29vh;
+
   height: 30vh;
+
   background-image: url(../images/pic1.jpg);
+
   color: white;
+
   border-radius: 25px;
+
   display: none;
+
   text-align: center;
 
 }
 
 #rita-desc{
+
   padding-top: 32px;
+
   width: 29vh;
+
   height: 30vh;
+
   background-image: url(../images/pic1.jpg);
+
   color: white;
+
   border-radius: 25px;
+
   display: none;
+
   text-align: center;
 
 }
 
 #frank-desc{
+
   padding-top: 32px;
+
   width: 29vh;
+
   height: 30vh;
+
   background-image: url(../images/pic1.jpg);
+
   color: white;
+
   border-radius: 25px;
+
   display: none;
+
   text-align: center;
 
 }
 
 #mike-desc{
+
   padding-top: 32px;
+
   width: 29vh;
+
   height: 30vh;
+
   background-image: url(../images/pic1.jpg);
+
   color: white;
+
   border-radius: 25px;
+
   display: none;
+
   text-align: center;
 
 }
 
 #komen-desc{
+
   padding-top: 32px;
+
   width: 29vh;
+
   height: 30vh;
+
   background-image: url(../images/pic1.jpg);
+
   color: white;
+
   border-radius: 25px;
+
   display: none;
+
   text-align: center;
+
 }
 
 #founders{
+
   margin-top: 15px;
+
 }
 
 #founders h2{
+
   text-align: center;
+
 }
 
 #success h2{
+
     text-align: center;
+
 }
 
 /* .carousel-item img{
+
   width: 35vh;
+
   height: 30vh;
+
   border-radius: 15px;
+
 } */
 
-
 /* Styling the mechanics page */
+
 #mechanicheading{
+
   text-align: center;
+
 }
+
 .mechanicsimage{
+
   border:1px hidden;
+
 }
+
 .mechanicsimage h6{
+
  color:red;
+
  text-align: center;
+
  padding-top:7px;
+
 }
+
 .mechanicsimage p{
+
   text-align: center;
+
 }
+
 #card-body1{
+
   border:1px solid darkgrey;
+
 }
+
 button{
+
   text-align: center;
+
 }
+
 #towingheading{
+
   text-align: center;
+
 }
+
 #select1,#select2, #select3,#select4,#select5,#select6,#select7,#select8{
+
   margin-left:28%;
+
 }
+
 li{
+
   font-size:14px;
+
   font-weight:bold;
+
   text-decoration: none;
+
 }
+
 address{
+
   text-align: left;
+
   font-size:12px;
+
 }
+
 #mechanic1profile, #mechanic2profile, #mechanic3profile, #mechanic4profile, #mechanic5profile,#mechanic6profile,#mechanic7profile,#mechanic8profile{
+
   display: none;
+
   }
 
-
 .col-md-3{
+
   text-align: center;
 
 }
 
 #partners h2{
+
   text-align: center;
+
 }
 
 #partners img{
+
   margin: 5px;
+
 }
 
 .nav-link{
+
   color: white;
+
   padding-left: 2px;
+
 }
 
 .nav-link:hover{
+
   background-color: red;
+
   color: red;
+
 }
 
 #how{
+
   margin-top: 10px;
+
 }
 
 #feedback{
+
   text-align: center;
+
+}
+
+#services h2{
+
+  text-align: center;
+
 }
 
 .mechanicsimage img{
+
   width: 40vh;
+
   height: 30vh;
+
 }
 
 .kawangware{
+
   display: none;
+
 }
 
 .jamhuri{
+
   display: none;
+
 }
 
 .container{
+
   margin-top: 10vh;
+
 }
 
 .kawa-tow{
+
   display: none;
+
 }
 
 .jamu-tow{
+
   display: none;
+
 }
 
 .carousel-caption p{
+
   font-size: 25px;
+
 }
 
 .carousel-caption h3{
+
   font-size: 40px;
+
 }
-
-
-
 
 @media screen and (max-width:768px){
+
   #selectservice{
+
     width: 85%;
+
   }
+
+}
 
   /*success */
+
   #success{
-    margin-left: 15%;
+
     margin-top: 3%;
+
   }
+
   #success img{
-    padding:1%;
+
+    width: 35vh;
+
+    height: 35vh;
+
+    border-radius: 15px;
+
   }
+
   #success h2{
-    margin-left: 25%;
+
+    text-align: center;
 
     color: red;
+
   }
+
   /*how m mechanics works*/
+
 .how{
+
   background-color: #f4f6f7 ;
+
   border-radius: 50px;
+
 }
+
 .serve{
+
   background-color: #f4f6f7 ;
+
   border-radius: 50px;
+
 }
+
 .part{
+
   background-color: #f4f6f7 ;
+
   border-radius: 50px;
+
 }
